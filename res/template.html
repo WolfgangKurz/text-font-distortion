@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Text Font Distortion Sample</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            h5 {
+                margin: 0 0 5px;
+            }
+            pre {
+                padding: 10px;
+                border: 1px solid #d8d8d8;
+                white-space: pre-wrap;
+                word-break: break-all;
+            }
+
+            @font-face {
+                font-family: "TFD_PretendardVariable";
+                font-weight: 45 920;
+                font-style: normal;
+                font-display: block;
+                src: url("/@tfd.woff?token={{token}}&sig={{sig}}") format("woff-variations");
+            }
+            pre {
+                font-family: sans-serif;
+            }
+            pre.patched {
+                font-family: "TFD_PretendardVariable";
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Text Font Distortion Sample</h3>
+
+        <h5>Display (Font applied)</h5>
+        <pre class="patched">{{content}}</pre>
+    </body>
+</html>
