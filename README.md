@@ -9,7 +9,11 @@ As a result, only the modified text and a font that renders the visual appearanc
 
 ### Screenshots
 ![Sample 1](doc/sample1.png)
+
 What the user sees in the browser.
 
+-
+
 ![Sample 2](doc/sample2.png)
+
 Source view for the same page.
