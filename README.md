@@ -8,12 +8,7 @@ The content, converted with the shuffled Glyph Offsets, is sent to the client. W
 As a result, only the modified text and a font that renders the visual appearance of the original text exist. Since there is no JavaScript decryption process, this makes it extremely difficult to scrape the content by any means other than taking a screenshot.
 
 ### Screenshots
-![Sample 1](doc/sample1.png)
-
-What the user sees in the browser.
-
--
-
-![Sample 2](doc/sample2.png)
-
-Source view for the same page.
+| Browser view                       | Source view                    |
+|------------------------------------|--------------------------------|
+| ![Sample 1](doc/sample1.png)       | ![Sample 2](doc/sample2.png)   |
+| What the user sees in the browser. | Source view for the same page. |
