@@ -7,7 +7,7 @@ For each request, a random token is generated, and the Glyph Offsets are shuffle
 The content, converted with the shuffled Glyph Offsets, is sent to the client. When the font is requested, the server generates and provides the font with the shuffled glyph reference table(cmap) applied.
 As a result, only the modified text and a font that renders the visual appearance of the original text exist. Since there is no JavaScript decryption process, this makes it extremely difficult to scrape the content by any means other than taking a screenshot.
 
-### Screenshots
+## Screenshots
 | Browser view                       | Source view                    |
 |------------------------------------|--------------------------------|
 | ![Sample 1](doc/sample1.png)       | ![Sample 2](doc/sample2.png)   |
